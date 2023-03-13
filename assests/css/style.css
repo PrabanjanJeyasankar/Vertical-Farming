@@ -3,6 +3,21 @@
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
+.logo{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    left:-40px;
+    
+}
+.LogoTitle{
+    font-size: 220%;
+    font-weight: 100;
+    margin: 0 0;
+    position: relative;
+    top:-16px;
+    left:-70px;
+}
 nav{
     display: flex;
     align-items: center;
@@ -14,40 +29,139 @@ nav ul li{
     display: inline-block;
     color: white;
     padding: 10px 10px;
+    font-size: 75%;
 }
-.LogoTitle{
-    font-size: 40px;
+.btn-StartFreeTrail{
+    width: 10.5em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: #000000;
+    color: #f1ffa2;
+    border: solid .1px #f1ffa2;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
+.btn-Account{
+    margin: 10px;
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: #f1ffa2;
+    color: black;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
 button{
     color: white;
     border: solid 1px white;
 }
 section{
-    margin: 10%;
+    margin: 6%;
     margin-top: -2%;
 }
 .section-heading-para{
-    font-size: 45px;
-    width:40%;
+    font-size: 350%;
+    width:60%;
+}
+.comma-clr{
+    color:#f1ffa2;
+}
+.GrownVertically{
+    font-weight: 800;
+}
+.UrbanAreas{
+    background-color: #f1ffa2;
+    font-weight: 800;
+    color: #000000;
 }
 .section-para{
     font-size: 15px;
+    width: 52%;
 }
+.btn-StartNow{
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: #f1ffa2;
+    color: black;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.btn-HowItWorks{
+    margin: 10px;
+    width: 14%;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 13px;
+    font-weight: 200;
+    font-family: inherit;
+    background-color: #000000;
+    color: #e1f2c1;
+    border: solid 1px #e1f2c1;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    
+   }
 
 footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
     color:black;
-    background-color: white;
+    /* background-color: white; */
 
 }
 footer ul li{
     list-style: none;
     display: inline-block;
-    color: white;
+    /* color: white; */
     padding: 10px 10px;
 }
 .footer-paragraph{
-    width: ;
+    width: 25%;
+    margin-left: 300px;
+    font-size:21px;
+}
+
+footer button{
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: #f1ffa2;
+    color: black;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.DontWait{
+    z-index: 6;
+}
+.JoinUs{
+    background-color: #e5e8fe;
+    margin: -40px;
+    z-index:4;
+}
+.ActNow{
+    background-color: #fcecbe;
+    z-index: 2;
 }
