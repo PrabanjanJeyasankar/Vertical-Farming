@@ -1,1 +1,18 @@
-/* this is style */
+*{
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 10px;
+}
+button{
+    color: white;
+    border: solid 1px white;
+}
