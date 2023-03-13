@@ -1,10 +1,13 @@
 *{
     background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 nav ul li{
     list-style: none;
@@ -12,7 +15,39 @@ nav ul li{
     color: white;
     padding: 10px 10px;
 }
+.LogoTitle{
+    font-size: 40px;
+}
 button{
     color: white;
     border: solid 1px white;
+}
+section{
+    margin: 10%;
+    margin-top: -2%;
+}
+.section-heading-para{
+    font-size: 45px;
+    width:40%;
+}
+.section-para{
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:black;
+    background-color: white;
+
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 10px;
+}
+.footer-paragraph{
+    width: ;
 }
