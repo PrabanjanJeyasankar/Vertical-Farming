@@ -113,6 +113,42 @@ section img{
     left: 20px;
 
 }
+.PrsBoxOne{
+    padding-left: 0;
+    padding-top: 2% ;
+    padding-bottom: 2%;
+    padding-right: 17%;
+    background-color: #e1f2c1;
+    border-radius :15px;
+    border: none;
+}
+.NumOne{
+    background-color: #ffffff;
+    color: black;
+    height: 20%;
+    padding: 5% 8%;
+    border-radius: 100%;
+    border: solid .5px #000000;
+    position: relative;
+    top:7px;
+}
+.PrsBoxOneHeading{
+    background-color: #e1f2c1;
+    color: #000000;
+    font-size: 90%;
+    font-weight: 600;
+    position: relative;
+    left:4%;
+    top:-3px;
+}
+.PrsBoxOnePara{
+    background-color: #e1f2c1;
+    color: #000000;
+    font-size: 70%;
+    font-weight: 100;
+    position: relative;
+    left: 32%;
+}
 .btn-StartNow{
     width: 9em;
     height: 3em;
