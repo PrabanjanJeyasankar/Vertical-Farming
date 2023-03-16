@@ -2,7 +2,14 @@
     background-color: black;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    width: auto;
+    
 }
+
+/* body{
+    background-color: #ffffff; 
+     height:20%;
+} */
 .logo{
     width: 80%;
     height: 80%;
@@ -63,12 +70,25 @@ nav ul li{
     z-index: 1;
 }
 section{
+    float:left;
     margin: 6%;
     margin-top: -2%;
+    width: 50%;
+}
+#test
+{
+    /* background: teal; */
+    margin:0 7% ;
+}
+aside{
+    float: right;
+    background-color: #e5e8fe;
+    width:30%;
+    height: 40%;
 }
 .section-heading-para{
     font-size: 350%;
-    width:60%;
+    width:100%;
 }
 .comma-clr{
     color:#f1ffa2;
@@ -88,7 +108,7 @@ section i{
 }
 .section-para{
     font-size: 15px;
-    width: 52%;
+    width: 90%;
 }
 section img{
     width: 45px;
@@ -113,11 +133,25 @@ section img{
     left: 20px;
 
 }
+.VerticalFarmingIcon{
+    width: 335px;
+    height: 264px;
+}
+.ProcessBoxes{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background-color: teal; */
+    padding: 4% 0;
+}
+
 .PrsBoxOne{
     padding-left: 0;
     padding-top: 2% ;
     padding-bottom: 2%;
-    padding-right: 17%;
+    padding-right: 12%;
     background-color: #e1f2c1;
     border-radius :15px;
     border: none;
@@ -149,6 +183,82 @@ section img{
     position: relative;
     left: 32%;
 }
+.PrsBoxTwo{
+    padding-left: 0;
+    padding-top: 2% ;
+    padding-bottom: 2%;
+    padding-right: 12%;
+    background-color: #f1ffa2;
+    border-radius :15px;
+    border: none;
+    position: relative;
+    left:2px;
+}
+.NumTwo{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    /* height: 20%; */
+    padding: 5% 8%;
+    border-radius: 100%;
+    border: solid .5px #000000;
+    position: relative;
+    top:7px;
+}
+.PrsBoxTwoHeading{
+    background-color: #f1ffa2;
+    color: #000000;
+    font-size: 90%;
+    font-weight: 600;
+    position: relative;
+    left:4%;
+    top:-3px;
+}
+.PrsBoxTwoPara{
+    background-color: #f1ffa2;
+    color: #000000;
+    font-size: 70%;
+    font-weight: 100;
+    position: relative;
+    left: 32%;
+}
+.PrsBoxThree{
+    padding-left: 0;
+    padding-top: 2% ;
+    padding-bottom: 2%;
+    padding-right: 12%;
+    background-color: white;
+    border-radius :15px;
+    border: none;
+    position: relative;
+    left: 4px;
+}
+.NumThree{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    height: 20%;
+    padding: 5% 8%;
+    border-radius: 100%;
+    border: solid .5px #000000;
+    position: relative;
+    top:7px;
+}
+.PrsBoxThreeHeading{
+    background-color: white;
+    color: #000000;
+    font-size: 90%;
+    font-weight: 600;
+    position: relative;
+    left:4%;
+    top:-3px;
+}
+.PrsBoxThreePara{
+    background-color: white;
+    color: #000000;
+    font-size: 70%;
+    font-weight: 100;
+    position: relative;
+    left: 32%;
+}
 .btn-StartNow{
     width: 9em;
     height: 3em;
@@ -165,7 +275,7 @@ section img{
 }
 .btn-HowItWorks{
     margin: 10px;
-    width: 14%;
+    width: 25%;
     height: 3em;
     border-radius: 30em;
     font-size: 13px;
@@ -179,9 +289,32 @@ section img{
     z-index: 1;
     
    }
+.section-decoration-left i{
+    position: relative;
+    font-size: 28px;
+    color:black;
+    background-color: white;
+    border-radius: 52px;
+    right: 738px;
+    top:26px;
+    /* bottom: 0px; */
+    
+}
+
+.section-decoration-right i
+{
+    position: relative;
+    font-size: 28px;
+    color:black;
+    background-color: white;
+    border-radius: 52px;
+    right: 402px;
+    top:25px;
+}
 
 footer{
     height: 140px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -200,7 +333,7 @@ footer{
     color: rgb(255, 255, 255);
     border: solid 1px black;
     position: relative;
-    left: 75px;
+    left: 25px;
 }
 .SevenAM{
     padding: 6px 6px;
@@ -210,11 +343,11 @@ footer{
     color: rgb(0, 0, 0);
     font-weight: 600;
     position: relative;
-    left: 3px;
+    left: 5px;
 }
 .FooterLeaf{
     position: relative;
-    left: 62px;
+    left: 5px;
     height: 48px;
     width: 48px;
 }
@@ -231,7 +364,7 @@ footer ul li{
 }
 .footer-paragraph{
     width: 22%;
-    margin-left: 100px;
+    margin-left: 50px;
     font-size:18px;
     color:black;
     background-color: white;
