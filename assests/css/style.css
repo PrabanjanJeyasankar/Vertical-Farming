@@ -82,9 +82,143 @@ section{
 }
 aside{
     float: right;
-    background-color: #e5e8fe;
-    width:30%;
-    height: 40%;
+    /* background-color: #e5e8fe; */
+    width:32%;
+    height: 30%;
+    position: relative;
+    right:80px;
+    top: 64px;
+    /* background-color: teal; */
+
+  
+}
+aside ul
+{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+}
+aside ul li h3{
+    width: 20%;
+    position: relative;
+    bottom: 20px;
+}
+#vector-dot1{
+    size: 400px;
+    position: relative;
+    left: 110px;
+    z-index: 1;
+    font-size: 28px;
+    color:rgb(0, 0, 0);
+    background-color:#f1ffa2;
+    /* border: 1px; */
+    border-radius: 50%;
+
+}
+#vector-dot2{
+    size: 400px;
+    position: relative;
+    bottom: 12px;
+    right: 12px;
+    z-index: 1;
+    font-size: 28px;
+    color:rgb(0, 0, 0);
+    background-color:#ffffff;
+    border-radius: 50%;
+
+}
+
+/* .emptybox{
+    background-color: #e4ffb2;
+    height: 234px;
+    width: 228px;
+    border-radius: 7%;
+    position: relative;
+    right: 32px;
+} */
+.VerticalFarmingIcon{
+    margin: 0%;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top:10px;
+    left: 8px;
+    border-radius:14% 0;
+}
+.aside-row{
+    list-style: none;
+}
+.AsideImage{
+    height: 234px;
+    width: 228px;
+    border-radius: 7%;
+    position: relative;
+    right: 30px;
+}
+.btn-tech{
+    position: relative;
+    bottom:90px;
+    left: -15px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 30em;
+    font-size: 11px;
+    font-weight: 600;
+    color: black;
+    border: solid 1px black;
+}
+
+.VerticalFarming{
+    position: relative;
+    left: 2px;
+    top:12px;
+}
+.aside-image-icons img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    border: solid 1.5px black;
+    object-fit: cover;
+    position: relative;
+    bottom: 45px;
+    right:40px;
+}
+.asideimage1{
+    z-index: 4;
+    position: relative;
+    left:-65px;
+}
+.asideimage2{
+    z-index:3;
+    position: relative;
+    left:-80px;
+}
+.btn-420{
+    z-index:2;
+    position: relative;
+    bottom:45px;
+    right: 95px;
+    background-color: #000000;
+    padding: 15px 20px;
+    border-radius: 30em;
+    font-size: 11px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(255, 255, 255);
+}
+.btn-arrow{
+    z-index: 1;
+    position: relative;
+    bottom:45px;
+    right: 90px;
+    background-color: #000000;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    font-size: 11px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(255, 255, 255);
 }
 .section-heading-para{
     font-size: 350%;
@@ -101,7 +235,8 @@ section i{
 }
 .UrbanAreas{
     background-color: #f1ffa2;
-    font-weight: bolder;
+    font-weight:bold;
+    text-shadow: 0.5px 0.5px 0 black;
     color: #000000;
     padding-right: 1%;
     padding-left: 1%;
@@ -133,18 +268,16 @@ section img{
     left: 20px;
 
 }
-.VerticalFarmingIcon{
-    width: 335px;
-    height: 264px;
-}
+
 .ProcessBoxes{
     width: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
-    align-content: center;
-    /* background-color: teal; */
-    padding: 4% 0;
+    position: relative;
+    left: 20px;
+    padding-top: 4%;
+    padding-bottom: 6%;
 }
 
 .PrsBoxOne{
@@ -184,7 +317,7 @@ section img{
     left: 32%;
 }
 .PrsBoxTwo{
-    padding-left: 0;
+    padding-left: 10px;
     padding-top: 2% ;
     padding-bottom: 2%;
     padding-right: 12%;
@@ -222,7 +355,7 @@ section img{
     left: 32%;
 }
 .PrsBoxThree{
-    padding-left: 0;
+    padding-left: 10px;
     padding-top: 2% ;
     padding-bottom: 2%;
     padding-right: 12%;
@@ -291,25 +424,24 @@ section img{
    }
 .section-decoration-left i{
     position: relative;
-    font-size: 28px;
+    font-size: 20px;
     color:black;
     background-color: white;
     border-radius: 52px;
-    right: 738px;
-    top:26px;
-    /* bottom: 0px; */
+    right: 754px;
+    top:30px;
     
 }
 
 .section-decoration-right i
 {
     position: relative;
-    font-size: 28px;
+    font-size: 20px;
     color:black;
     background-color: white;
     border-radius: 52px;
-    right: 402px;
-    top:25px;
+    right: 400px;
+    top:29px;
 }
 
 footer{
