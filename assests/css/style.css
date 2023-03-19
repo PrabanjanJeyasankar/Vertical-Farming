@@ -275,7 +275,7 @@ section img{
     display: flex;
     justify-content: center;
     position: relative;
-    left: 10px;
+    left: 5px;
     padding-top: 4%;
     padding-bottom: 6%;
 }
